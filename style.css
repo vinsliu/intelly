@@ -1,0 +1,43 @@
+body {
+  background-color: #f6f8fa;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 65px 1fr;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 65px;
+
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  justify-items: center;
+  align-items: center;
+
+  border: solid red 1px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.content {
+  margin-top: 65px;
+  height: calc(100vh - 65px);
+
+  display: grid;
+  grid-template-columns: 230px 1fr;
+}
+.nav {
+  border: solid blue 1px;
+}
+
+.section {
+  padding-bottom: 20px;
+  border: solid green 1px;
+}
