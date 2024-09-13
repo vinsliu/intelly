@@ -55,6 +55,13 @@ body {
 /* Nav */
 .nav {
   border: solid blue 1px;
+
+  padding: 16px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
 }
 /* Dashboard */
 .section {
