@@ -36,13 +36,38 @@ body {
 }
 /* Search Bar */
 .search-bar {
+  max-width: 625px;
   width: 625px;
-  display: flex;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: #efefef;
+  padding: 0 1rem;
+}
+/* Search Btn */
+.btn-search {
+  position: absolute;
+  top: 25px;
+  left: 850px;
 }
 /* Account Info */
 .acc-info {
-  width: 218px;
+  width: 220px;
   border: solid black 1px;
+}
+.account {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+}
+.account-picture {
+  width: 30px;
+  border-radius: 50px;
+}
+.account-bell {
+  position: absolute;
+  top: 25px;
+  right: 30px;
 }
 /* Content */
 .content {

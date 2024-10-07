@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Intelly</title>
+    <link rel="shortcut icon" href="assets/logotype.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="reset.css" />
     <link
@@ -26,7 +27,7 @@
           <!-- Search Bar -->
           <div class="search">
             <!-- Input -->
-            <input type="text" class="search-bar" />
+            <input type="text" class="search-bar" placeholder="Search" />
             <!-- Search Btn -->
             <a href="" class="btn-search">
               <i class="fa-solid fa-magnifying-glass"></i>
@@ -35,9 +36,15 @@
           <!-- Account Info -->
           <div class="acc-info">
             <!-- Account -->
-            <span class="account"></span>
+            <div class="account">
+              <img src="assets/macaron.jpg" alt="Photo de profil" class="account-picture" />
+              <span class="account-name">Sweet Macaron</span>
+              <a class="account-dropdown">
+                <i class="fa-solid fa-caret-down"></i>
+              </a>
+            </div>
             <!-- Bell -->
-            <span class="bell"> <i class="fa-solid fa-bell"></i> </span>
+            <span class="account-bell"> <i class="fa-solid fa-bell"></i> </span>
           </div>
         </div>
       </header>
